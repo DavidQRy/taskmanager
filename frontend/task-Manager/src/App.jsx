@@ -11,6 +11,8 @@ import UserDashboard from "./pages/User/Dashboard"
 import ManageTask from "./pages/Admin/ManageTask"
 import ManageUser from "./pages/Admin/ManageUsers"
 import MyTasks from "./pages/User/MyTasks"
+import PrivateRoute from "./routes/PrivateRoute"
+import CreateTask from "./pages/Admin/CreateTask"
 
 const App = () => {
   return (
