@@ -1,11 +1,11 @@
 import React from 'react'
 
-const viewTasksDetails = () => {
+const ViewTasksDetails = () => {
     return (
         <div>
-            viewTasksDetails
+            ViewTasksDetails
         </div>
     )
 }
 
-export default viewTasksDetails
+export default ViewTasksDetails
