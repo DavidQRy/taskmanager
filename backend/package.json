@@ -4,7 +4,12 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest",
+    "dev": "node --watch --env-file-if-exists=.env src/app.js",
+    "start:all": "docker compose up -d && npm run dev",
+    "docker": "docker compose up -d",
+    "docker:down": "docker compose down",
+    "test:coverage": "vitest --coverage"
   },
   "keywords": [],
   "author": "",
@@ -19,5 +24,13 @@
     "jsonwebtoken": "^9.0.2",
     "mongose": "^0.0.2-security",
     "multer": "^2.0.1"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^4.0.18",
+    "vitest": "^4.0.18"
+  },
+  "imports": {
+    "#*": "./src/*.js",
+    "#test/*": "./test/*.js"
   }
 }
