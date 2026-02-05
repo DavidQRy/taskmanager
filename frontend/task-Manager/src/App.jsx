@@ -7,7 +7,7 @@ import {
 import SignUp from "./pages/Auth/signUp"
 import Login from "./pages/auth/login"
 import Dashboard from "./pages/Admin/Dashboard"
-import UserDashboard from "./pages/User/Dashboard"
+import UserDashboard from "./pages/User/UserDashboard"
 import ManageTask from "./pages/Admin/ManageTask"
 import ManageUser from "./pages/Admin/ManageUsers"
 import MyTasks from "./pages/User/MyTasks"
